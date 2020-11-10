@@ -1,0 +1,5 @@
+{
+  "port" : 5000,
+  "mongoUri" : "mongodb+srv://root:1@cluster0.q9ib8.mongodb.net/app?retryWrites=true&w=majority",
+  "jwtSecretKey": "apsky password MERN"
+}

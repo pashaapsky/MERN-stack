@@ -1,0 +1,36 @@
+{
+  "name": "apsky-mern",
+  "version": "1.0.0",
+  "description": "MERN stack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pashaapsky/MERN-stack.git"
+  },
+  "keywords": [
+    "mern",
+    "react"
+  ],
+  "author": "apsky ap.sky@yandex.ru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pashaapsky/MERN-stack/issues"
+  },
+  "homepage": "https://github.com/pashaapsky/MERN-stack#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.13"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
