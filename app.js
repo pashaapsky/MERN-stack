@@ -4,6 +4,9 @@ const mongoose = require('mongoose');
 
 const app = express();
 
+//для обработки сервером(express) json // проблема в body
+app.use(express.json({ extended: true}));
+
 //регистрация routes
 app.use('/api/auth', require('./routes/auth.routes'));
 
@@ -19,7 +22,6 @@ async function start() {
 
         app.listen(PORT, () => console.log(`App has been started on port ${PORT}`));
     } catch (e) {
-        console.log('Server Error', e.message);
         process.exit(1)
     }
 }
